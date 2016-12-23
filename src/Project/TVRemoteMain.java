@@ -11,7 +11,7 @@ public class TVRemoteMain {
 	        int cnt = 1;
 	        System.out.printf("You are on Channel number %d\n", button.x);
 	        do{
-	            System.out.printf("#%d : Make an order (0: Turn of the TV, 1: Change the Channel, 2: What channel am I on? 3: Increase the Volume , 4: Decrease the Volume ) : ", cnt);
+	            System.out.printf("#%d : Make an order (0: Turn off the TV, 1: Change the Channel, 2: What channel am I on? 3: Increase the Volume , 4: Decrease the Volume ) : ", cnt);
 	            order = console.nextInt();
 	            if(order == 1) {
 	                System.out.print("What Channel do you want? : ");
