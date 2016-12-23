@@ -17,7 +17,7 @@ public class TVRemoteMain {
 	                System.out.print("What Channel do you want? : ");
 	                num = console.nextInt();
 	                button.putNum(num);
-	                System.out.println("Channel successfully Changed.");
+	                System.out.println("Channel Successfully Changed.");
 	            } else if(order == 2){
 	                System.out.printf("You are on Channel %d\n", button.returnNum());
 	            } else if(order == 3){
